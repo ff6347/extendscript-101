@@ -22,15 +22,15 @@ You should get the same result as before.
 
 Congratulations. You have your setup right. So lets move on to some more advanced topics.  
 
-##01  
+##01 polygons-rectangles-ovals.jsx
 
-##02  
+##02 graphiclines.jsx
 
-##03  
+##03 text.jsx
 
-##04  
+##04 swatches.jsx  
 
-##05  
+##05 selection-and-groups.jsx
 
 
 Copyright (c)  2014 Fabian "fabiantheblind" Morón Zirfas & FH-Potsdam  
