@@ -11,16 +11,22 @@ For more extendscript examples see [github.com/fabiantheblind/extendscript](http
 2. Install InDesign via [creative cloud download](https://creative.adobe.com/products/indesign)  
 3. Choose your editor. Adobe has a own editor called the ExtendScript Toolkit (ESTK). You can download it [here](https://creative.adobe.com/products/estk) or install it via the creative cloud application. On CS 3 till CS 6 it normally got installed right away. You can use a different editor if you like. This document assumes you use the ESTK.   
 ![](assets/images/estk.png)  
-4. Check ot the [Adobe Scripting Center](http://www.adobe.com/devnet/scripting.html) for more infos  
-5. Find your Scripts Panel within InDesign and the corresponding folder on your harddrive. See [this help topic](http://helpx.adobe.com/indesign/using/scripting.html) for further information.  
+4. Check ot the [Adobe Scripting Center](http://www.adobe.com/devnet/scripting.html) for more Tutorials and examples. Download the [InDesign Scripting SDK(http://www.adobe.com/devnet/indesign/sdk.html) for your operating system.  
+5. Open or unpack the SDK. take a lock at the folder: indesign > scriptingguide > scripts > JavaScript. There you will find a lot of examples provided by Adobe.  
+5. Find your "Scripts Panel" within InDesign and the corresponding folder on your harddrive. See [this help topic](http://helpx.adobe.com/indesign/using/scripting.html) for further information.  
+6. Move the exendscript-101 folder and the whole SDK to your "Scripts Panel" folder.  
 6. Create a file called "hello-world.jsx" in the "Scripts Panel" folder and add the following code to it `var doc = app.documents.add(); doc.pages[0].textFrames.add({geometricBounds:[0,0,100,100],contents:"hello InDesign"});`  
+7. In InDesign. Go to Menu > Windows > Utilities > Scripts (Actually we are in Germany. So localized it is: Menü > Fenster > Dienstprogramme > Skripte ). It should look something like this. 
+![/assets/images/Scripts-Panel.png](assets/images/Scripts-Panel.png)  
 7. Execute the script from within InDesign. You should get a new document with a text frame and some text in it.  
-8. Paste the same code into the ESTK, select the target application (InDesign) from the pulldown menu on the top. ![pulldown](assets/images/target-app-pulldown.png)  
+8. Paste the same code into the ESTK, select the target application (InDesign) from the pulldown menu on the top.
+![pulldown](assets/images/target-app-pulldown.png)  
 Don't safe it, just hit the ► (play/run) button on the top right.
 ![](assets/images/play-run-button.png)  
 You should get the same result as before.
 
 Congratulations. You have your setup right. So lets move on to some more advanced topics.  
+
 
 ##01 polygons-rectangles-ovals.jsx
 
