@@ -25,7 +25,9 @@
     var x2 = (step - gutter);
 
     // make a rectangle
-    var rect = page.rectangles.add({geometricBounds:[y1,x1,y2,x2]});
+    var rect = page.rectangles.add({
+        geometricBounds:[y1,x1,y2,x2]
+        });
     // move to the right
     x1 += step;
     x2 = x2 + step;
@@ -41,8 +43,9 @@
 
 
      if($.os.charAt(0) == 'W'){
-            alert("You are working on windows. It could be that the path notation used in this script won't work. If so copy the content of this panel into an new issue at 'https://github.com/fabiantheblind/extendscript-101'\n" +
-                "Path for the script is: " + ((File($.fileName)).path)
+            alert("You are working on windows. It could be that the path notation used in this script won't work. If so copy the content of this panel into an new issue at 'https://github.com/fabiantheblind/extendscript-101'\n\n" +
+                "Path for this script is: " + ((File($.fileName)).path) + "\n\n" +
+                "Path we want to adress: " + ((File($.fileName)).parent.path) + "/assets/images/" + "\n"
              );
         }else{
             // nothing to do here move along
@@ -74,8 +77,8 @@
         if(thing instanceof Rectangle){
             alert("I'm an "+ thing.constructor.name +". at index " + i + "");
             thing.bottomLeftCornerOption = CornerOptions.ROUNDED_CORNER;
-            }; // close if
-        }; // close loop
+            } // close if
+        } // close loop
 
     return 0;
     }; // close main function

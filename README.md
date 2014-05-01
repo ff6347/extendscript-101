@@ -19,7 +19,8 @@ For more extendscript examples see [github.com/fabiantheblind/extendscript](http
 7. In InDesign. Go to Menu > Windows > Utilities > Scripts (Actually we are in Germany. So localized it is: Menü > Fenster > Dienstprogramme > Skripte ). It should look something like this. 
 ![/assets/images/Scripts-Panel.png](assets/images/Scripts-Panel.png)  
 7. Execute the script from within InDesign. You should get a new document with a text frame and some text in it.  
-8. Paste the same code into the ESTK, select the target application (InDesign) from the pulldown menu on the top.  
+8. Paste the same code into the ESTK.
+9. select the target application (InDesign) from the pulldown menu on the top.  
 ![pulldown](assets/images/target-app-pulldown.png)  
 Don't safe it, just hit the ► (play/run) button on the top right.  
 ![](assets/images/play-run-button.png)  
