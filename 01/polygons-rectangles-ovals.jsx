@@ -46,11 +46,11 @@
     var path = "";
 
      if($.os.charAt(0) == 'W'){
-           if(debug) alert("You are working on windows. It could be that the path notation used in this script won't work. If so copy the content of this panel into an new issue at 'https://github.com/fabiantheblind/extendscript-101'\n\n" +
-                "OS: " + $.os + "\n\n"+
-                "Path for this script is: " + ((File($.fileName)).path) + "\n\n" +
-                "Path we want to adress: " + ((File($.fileName)).parent.path) + "/assets/images/" + "\n"
-             );
+           // if(debug) alert("You are working on windows. It could be that the path notation used in this script won't work. If so copy the content of this panel into an new issue at 'https://github.com/fabiantheblind/extendscript-101'\n\n" +
+           //      "OS: " + $.os + "\n\n"+
+           //      "Path for this script is: " + ((File($.fileName)).path) + "\n\n" +
+           //      "Path we want to adress: " + ((File($.fileName)).parent.path) + "/assets/images/" + "\n"
+           //   );
             path = ((File($.fileName)).parent.path) + "\\assets\\images\\";
 
         }else if($.os.charAt(0) == 'M'){
