@@ -11,7 +11,7 @@ For more extendscript examples see [github.com/fabiantheblind/extendscript](http
 2. Install InDesign via [creative cloud download](https://creative.adobe.com/products/indesign)  
 3. Choose your editor. Adobe has a own editor called the ExtendScript Toolkit (ESTK). You can download it [here](https://creative.adobe.com/products/estk) or install it via the creative cloud application. On CS 3 till CS 6 it normally got installed right away. You can use a different editor if you like. This document assumes you use the ESTK.   
 ![](assets/images/estk.png)  
-4. Check ot the [Adobe Scripting Center](http://www.adobe.com/devnet/scripting.html) for more Tutorials and examples. Download the [InDesign Scripting SDK(http://www.adobe.com/devnet/indesign/sdk.html) for your operating system.  
+4. Check ot the [Adobe Scripting Center](http://www.adobe.com/devnet/scripting.html) for more Tutorials and examples. Download the [InDesign Scripting SDK](http://www.adobe.com/devnet/indesign/sdk.html) for your operating system.  
 5. Open or unpack the SDK. take a lock at the folder: indesign > scriptingguide > scripts > JavaScript. There you will find a lot of examples provided by Adobe.  
 5. Find your "Scripts Panel" within InDesign and the corresponding folder on your harddrive. See [this help topic](http://helpx.adobe.com/indesign/using/scripting.html) for further information.  
 6. Move the exendscript-101 folder and the whole SDK to your "Scripts Panel" folder.  
